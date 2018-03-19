@@ -1,15 +1,6 @@
-@font-face {
-	font-family: sans-serif;
-	src: url('../webfonts/Roboto-Regular.ttf');
-}
-
-@font-face {
-	font-family: sans-serif;
-	src: url('../webfonts/Roboto-Regular.ttf');
-}
 .home{
     font-family:'Times New Roman', Times, serif;
-    color:rgb(255, 247, 219) !important;
+    color:rgb(253, 247, 227) !important;
 }
 .bg-nav{
     background: #484848
@@ -21,6 +12,46 @@
 .nav-button:hover{
     color: rgba(175, 170, 170, 0.8);
 }
+.content {    
+    display: block;    
+    font-family:'Times New Roman', Times, serif;
+    background: rgb(253, 247, 227);
+}
+.boxes{
+    border-top: 2px solid black;
+    background: rgb(250, 250, 249);
+    border-bottom: 2px solid black;
+    padding: 20px;
+}
+.parent{    
+    padding-left: 75px;
+    padding-right: 75px;
+    line-height: 80%;
+    margin: 10px;
+    display: inline-block;
+    text-align: center;
+}
+.child{
+    display: flex;
+    margin: 5px;
+    text-align: center;
+}
+.overview{
+    flex: 0.3;
+    margin: 5px;
+    text-align: center;
+}
+.external-drive{
+    flex:0.8;
+    margin: 5px;
+    text-align: center;
+}
+.internal-drive{
+    flex:0.6;
+    margin: 5px;
+    text-align: center;
+}
+
 /*  Extra small devices (portrait phones, less than 576px)
     No media query since this is the default in Bootstrap
     Small devices (landscape phones, 576px and up) */
