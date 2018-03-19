@@ -1,0 +1,78 @@
+@font-face {
+	font-family: sans-serif;
+	src: url('../webfonts/Roboto-Regular.ttf');
+}
+
+@font-face {
+	font-family: sans-serif;
+	src: url('../webfonts/Roboto-Regular.ttf');
+}
+.home{
+    font-family:'Times New Roman', Times, serif;
+    color:rgb(255, 247, 219) !important;
+}
+.bg-nav{
+    background: #484848
+}
+.nav-button {
+    font-size: 40px;
+	color: rgba(175, 170, 170,0.4);
+}
+.nav-button:hover{
+    color: rgba(175, 170, 170, 0.8);
+}
+/*  Extra small devices (portrait phones, less than 576px)
+    No media query since this is the default in Bootstrap
+    Small devices (landscape phones, 576px and up) */
+@media (max-width: 576px) {
+    .home{
+        display: none !important;
+    }
+    .ml-10 {
+        flex:1 !important;
+        margin-left: 0rem !important;
+    }
+    .mr-10 {
+        flex:1 !important;
+    	margin-right: 0rem !important;
+    }
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+    .home {
+    	display: block !important;
+    }
+    .ml-10 {
+    	margin-left: 5rem !important;
+    }
+    .mr-10 {
+    	margin-right: 5rem !important;
+    }
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+    .home {
+    	display: block !important;
+    }
+    .ml-10 {
+    	margin-left: 20rem !important;
+    }    
+    .mr-10 {
+    	margin-right: 20rem !important;
+    }
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+    .home {
+    	display: block !important;
+    }    
+    .ml-10 {
+    	margin-left: 20rem !important;
+    }
+    .mr-10 {
+    	margin-right: 20rem !important;
+    }
+}
